@@ -1,0 +1,27 @@
+name: showcase_widgets_example
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+
+  # slidable
+  flutter_slidable: ^0.5.7
+
+  # state management
+  provider: ^4.3.2+2
+
+  # highlight widgets
+  showcaseview: ^0.1.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
